@@ -1,0 +1,127 @@
+[
+  {
+    "code": 301,
+    "name": "11/1 - a Mal ihracatı",
+    "_comment": ""
+  },
+  {
+    "code": 302,
+    "name": "11/1- a Hizmet ihracatı",
+    "_comment": ""
+  },
+  {
+    "code": 303,
+    "name": "11/1 - a Roaming hizmetleri",
+    "_comment": ""
+  },
+  {
+    "code": 304,
+    "name": "13/a Deniz hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",
+    "_comment": ""
+  },
+  {
+    "code": 305,
+    "name": "13/b Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 306,
+    "name": "13/c Petrol aramaları",
+    "_comment": ""
+  },
+  {
+    "code": 307,
+    "name": "13/c Kıymetli madenlerin arama, zenginleştirme ve rafinaj faaliyetleri",
+    "_comment": ""
+  },
+  {
+    "code": 308,
+    "name": "13/d Teşvikli yatırım mallarının teslimi",
+    "_comment": ""
+  },
+  {
+    "code": 309,
+    "name": "13/e Liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi",
+    "_comment": ""
+  },
+  {
+    "code": 310,
+    "name": "13/f Ulusal güvenlik amaçlı teslim ve hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 311,
+    "name": "14 Uluslararası taşımacılık",
+    "_comment": ""
+  },
+  {
+    "code": 312,
+    "name": "15/a Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 313,
+    "name": "15/b Uluslararası kuruluşlara yapılan teslim ve hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 314,
+    "name": "19/2 Usulüne Göre Yürürlüğe  Girmiş Uluslar Arası Anlaşmalar  Kapsamındaki İstisnalar",
+    "_comment": ""
+  },
+  {
+    "code": 315,
+    "name": "14/3 İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Romorklara Yapılan Motorin Teslimleri",
+    "_comment": ""
+  },
+  {
+    "code": 316,
+    "name": "11/1-a Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 317,
+    "name": "17/4-s Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin Araç-Gereç ve Bilgisayar  Programları",
+    "_comment": ""
+  },
+  {
+    "code": 318,
+    "name": "Geçici 29 3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde Gerçekleştirilecek Projeler, 3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı Yaptırılan Eğitim Öğretim Tesislerine İlişkin Projelere İlişkin Teslim\nve Hizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 319,
+    "name": "13/g Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri",
+    "_comment": ""
+  },
+  {
+    "code": 320,
+    "name": "Geçici 16 (6111sayılı K.) İSMEP Kapsamında İstanbul İl Özel İdaresi'ne Bağlı Olarak Faaliyet Gösteren \"İstanbul Proje Koordinasyon Birimi\" ne Yapılacak Teslim ve\nHizmetler",
+    "_comment": ""
+  },
+  {
+    "code": 321,
+    "name": "Geçici 26 Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO)\nTemsilcilikleri ve Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas Kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) Resmi Kullanımları İçin Yapılacak Mal Teslimi ve Hizmet İfaları,Bunların Sosyal ve Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal Teslimi ve Hizmet İfaları İle İlgili Bunlara Yapılan Mal Teslimi ve Hizmet İfaları",
+    "_comment": ""
+  },
+  {
+    "code": 322,
+    "name": "11/1-a Türkiye'de ikamet Etmeyenlere Ozel Fatura ile Yapılan Teslimler (Bavul\nTicareti)",
+    "_comment": ""
+  },
+  {
+    "code": 323,
+    "name": "13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Urün Senetlerinin ihtisas/Ticaret\nBorsaları Aracılığıyla İlk Teslimi",
+    "_comment": ""
+  },
+  {
+    "code": 350,
+    "name": "Diğerleri",
+    "_comment": ""
+  },
+  {
+    "code": 351,
+    "name": "İstisna Olmayan Diğer",
+    "_comment": "1 no.lu kdv beyannamesinin doldurulmasına ilişkin açıklamalar ve işlem kodlari dışındaki, istisna olmayan ancak 0 KDV'li fatura oluşturulması gereken durumlarda kullanılacaktır. Bu kod fatura tipi SATIS iken kullanılmaktadır."
+  }
+]

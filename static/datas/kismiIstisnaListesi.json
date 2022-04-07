@@ -1,0 +1,146 @@
+[
+  {
+    "code": 201,
+    "name": "17/1 Kültür ve eğitim amacı taşıyan işlemler"
+  },
+  {
+    "code": 202,
+    "name": "17/2-a Sağlık, çevre ve sosyal yardım amaçlı işlemler"
+  },
+  {
+    "code": 204,
+    "name": "17/2-c Yabancı diplomatik organ ve hayır kurumlarının bağışlarıyla ilgili mal ve hizmet alışları"
+  },
+  {
+    "code": 205,
+    "name": "17/2-d Taşınmaz kültür varlıklarına ilişkin teslimler ve mimarlık hizmetleri"
+  },
+  {
+    "code": 206,
+    "name": "17/2-e Mesleki kuruluşların işlemleri"
+  },
+  {
+    "code": 207,
+    "name": "17/3 Askeri fabrika"
+  },
+  {
+    "code": 208,
+    "name": "17/4-c Birleşme, devir, dönüşüm ve bölünme işlemleri"
+  },
+  {
+    "code": 209,
+    "name": "17/4-e Banka ve sigorta muameleleri vergisi kapsamına giren işlemler"
+  },
+  {
+    "code": 211,
+    "name": "17/4-h Zirai amaçlı veya köy tüzel kişiliklerince yapılan içme suyu teslimleri"
+  },
+  {
+    "code": 212,
+    "name": "17/4-ı Serbest bölgelerde verilen hizmetler"
+  },
+  {
+    "code": 213,
+    "name": "17/4-j Boru hattı ile yapılan petrol ve gaz taşımacılığı"
+  },
+  {
+    "code": 214,
+    "name": "17/4-k Sanayi bölgelerindeki arsa ve işyeri teslimleri ile konut yapı kooperatiflerinin üyelerine konut teslimleri"
+  },
+  {
+    "code": 215,
+    "name": "17/4-1 Varlık yönetim şirketlerinin işlemleri"
+  },
+  {
+    "code": 216,
+    "name": "17/4- m Tasarruf mevduatı sigorta fonunun işlemleri"
+  },
+  {
+    "code": 217,
+    "name": "17/4- n Basın - Yayın ve Enformasyon Genel Müdürlüğüne verilen haber hizmetleri"
+  },
+  {
+    "code": 218,
+    "name": "17/4-0 Gümrük antrepoları, geçici depolama yerleri, gümrüklü sahalar ve vergisiz satış yapılan mağazalarla ilgili hizmetler"
+  },
+  {
+    "code": 219,
+    "name": "17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri"
+  },
+  {
+    "code": 220,
+    "name": "Geçici 10 Kurumlar Vergisi Kanununun Geçici 28 ve 29. maddeleri kapsamındaki teslimler"
+  },
+  {
+    "code": 221,
+    "name": "Geçici 15 Konut yapı kooperatifleri, belediyeler ve sosyal güvenlik kuruluşlarına verilen inşaat taahhüt hizmeti"
+  },
+  {
+    "code": 223,
+    "name": "Geçici 20/1 Teknoloji geliştirme bölgelerinde yapılan işlemler"
+  },
+  {
+    "code": 225,
+    "name": "Geçici 23 Milli Eğitim Bakanlığına yapılan bilgisayar bağışları ile ilgili teslimler"
+  },
+  {
+    "code": 226,
+    "name": "17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri"
+  },
+  {
+    "code": 227,
+    "name": "17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler"
+  },
+  {
+    "code": 228,
+    "name": "17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler"
+  },
+  {
+    "code": 229,
+    "name": "17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri"
+  },
+  {
+    "code": 230,
+    "name": "17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi"
+  },
+  {
+    "code": 231,
+    "name": "17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi"
+  },
+  {
+    "code": 232,
+    "name": "17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri"
+  },
+  {
+    "code": 234,
+    "name": "17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve ipotek Konulan Konutların Teslimi"
+  },
+  {
+    "code": 235,
+    "name": "16/1-c Transit ve Gümrük Antrepo Rejimleri ile Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi"
+  },
+  {
+    "code": 236,
+    "name": "19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki istisnalar (İade Hakkı Tanınmayan)"
+  },
+  {
+    "code": 237,
+    "name": "17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Urün Senetlerinin ihtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim 17/4-u Varlıkların"
+  },
+  {
+    "code": 238,
+    "name": "Varlık Kiralama Şirketlerine Devri ile Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri 17/4-y"
+  },
+  {
+    "code": 239,
+    "name": "Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri 17/4-z Patentli Veya"
+  },
+  {
+    "code": 240,
+    "name": "Faydalı Model Belgeli Buluşa ilişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı"
+  },
+  {
+    "code": 250,
+    "name": "Diğerleri"
+  }
+]

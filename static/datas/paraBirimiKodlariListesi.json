@@ -1,0 +1,1100 @@
+[
+  {
+    "code": "AED",
+    "No": 784,
+    "E": 2,
+    "name": "Dirhams"
+  },
+  {
+    "code": "AFN",
+    "No": 971,
+    "E": 2,
+    "name": "Afgan"
+  },
+  {
+    "code": "ALL",
+    "No": 8,
+    "E": 2,
+    "name": "Lek"
+  },
+  {
+    "code": "AMD",
+    "No": 51,
+    "E": 2,
+    "name": "Dram"
+  },
+  {
+    "code": "ANG",
+    "No": 532,
+    "E": 2,
+    "name": "Antiller Guldeni"
+  },
+  {
+    "code": "AOA",
+    "No": 973,
+    "E": 2,
+    "name": "Kwanza"
+  },
+  {
+    "code": "ARS",
+    "No": 32,
+    "E": 2,
+    "name": "Arjantin Pesosu"
+  },
+  {
+    "code": "AUD",
+    "No": 36,
+    "E": 2,
+    "name": "Avustralya Doları"
+  },
+  {
+    "code": "AWG",
+    "No": 533,
+    "E": 2,
+    "name": "Aruba Florini"
+  },
+  {
+    "code": "AZN",
+    "No": 944,
+    "E": 2,
+    "name": "Azerbaycan Manatı"
+  },
+  {
+    "code": "BAM",
+    "No": 977,
+    "E": 2,
+    "name": "Konvertible Mark"
+  },
+  {
+    "code": "BBD",
+    "No": 52,
+    "E": 2,
+    "name": "Barbados Doları"
+  },
+  {
+    "code": "BDT",
+    "No": 50,
+    "E": 2,
+    "name": "Taka"
+  },
+  {
+    "code": "BGN",
+    "No": 975,
+    "E": 2,
+    "name": "Bulgaristan  Levi"
+  },
+  {
+    "code": "BHD",
+    "No": 48,
+    "E": 3,
+    "name": "Bahreyn Dinarı"
+  },
+  {
+    "code": "BIF",
+    "No": 108,
+    "E": 0,
+    "name": "Burundi Frankı"
+  },
+  {
+    "code": "BMD",
+    "No": 60,
+    "E": 2,
+    "name": "Bermuda Doları (Bermuda Dolar olarak da bilinir.)"
+  },
+  {
+    "code": "BND",
+    "No": 96,
+    "E": 2,
+    "name": "Brunei Doları"
+  },
+  {
+    "code": "BOB",
+    "No": 68,
+    "E": 2,
+    "name": "Bolivya Bolivyanosu"
+  },
+  {
+    "code": "BOV",
+    "No": 984,
+    "E": 2,
+    "name": "Bolivya Mvdolu (Para kodu)"
+  },
+  {
+    "code": "BRL",
+    "No": 986,
+    "E": 2,
+    "name": "Brazilya Reali"
+  },
+  {
+    "code": "BSD",
+    "No": 44,
+    "E": 2,
+    "name": "Bahama Doları"
+  },
+  {
+    "code": "BTN",
+    "No": 64,
+    "E": 2,
+    "name": "Ngultrum"
+  },
+  {
+    "code": "BWP",
+    "No": 72,
+    "E": 2,
+    "name": "Botsvana Pulası"
+  },
+  {
+    "code": "BYR",
+    "No": 974,
+    "E": 0,
+    "name": "Belarus Rublesi"
+  },
+  {
+    "code": "BZD",
+    "No": 84,
+    "E": 2,
+    "name": "Belize Doları"
+  },
+  {
+    "code": "CAD",
+    "No": 124,
+    "E": 2,
+    "name": "Kanada Doları"
+  },
+  {
+    "code": "CDF",
+    "No": 976,
+    "E": 2,
+    "name": "Kongo Frankı"
+  },
+  {
+    "code": "CHE",
+    "No": 947,
+    "E": 2,
+    "name": "WIR Euro (Tamamlayıcı para birimi)"
+  },
+  {
+    "code": "CHF",
+    "No": 756,
+    "E": 2,
+    "name": "İsviçre Frankı"
+  },
+  {
+    "code": "CHW",
+    "No": 948,
+    "E": 2,
+    "name": "WIR Franc (Tamamlayıcı para birimi)"
+  },
+  {
+    "code": "CLF",
+    "No": 990,
+    "E": 0,
+    "name": "Unidades de formento (Para kodu)"
+  },
+  {
+    "code": "CLP",
+    "No": 152,
+    "E": 0,
+    "name": "Şili Pesosu"
+  },
+  {
+    "code": "CNY",
+    "No": 156,
+    "E": 2,
+    "name": "Yuan Renminbisi"
+  },
+  {
+    "code": "COP",
+    "No": 170,
+    "E": 2,
+    "name": "Kolombiya Pesosu"
+  },
+  {
+    "code": "cou",
+    "No": 970,
+    "E": 2,
+    "name": "Unidad de Valor Real"
+  },
+  {
+    "code": "CRC",
+    "No": 188,
+    "E": 2,
+    "name": "Kosta Rika Colonu"
+  },
+  {
+    "code": "CUP",
+    "No": 192,
+    "E": 2,
+    "name": "Küba Pesosu"
+  },
+  {
+    "code": "CVE",
+    "No": 132,
+    "E": 2,
+    "name": "Cape Verde Escudosu"
+  },
+  {
+    "code": "CYP",
+    "No": 196,
+    "E": 2,
+    "name": "Kıbrıs Lirası"
+  },
+  {
+    "code": "CZK",
+    "No": 203,
+    "E": 2,
+    "name": "Çek Korunası"
+  },
+  {
+    "code": "DJF",
+    "No": 262,
+    "E": 0,
+    "name": "Cibuti Frankı"
+  },
+  {
+    "code": "DKK",
+    "No": 208,
+    "E": 2,
+    "name": "Danimarka Kronu"
+  },
+  {
+    "code": "DOP",
+    "No": 214,
+    "E": 2,
+    "name": "Dominik Pesosu"
+  },
+  {
+    "code": "DZD",
+    "No": 12,
+    "E": 2,
+    "name": "Cezayir Dinarı"
+  },
+  {
+    "code": "EEK",
+    "No": 233,
+    "E": 2,
+    "name": "Estonya Kronu"
+  },
+  {
+    "code": "EGP",
+    "No": 818,
+    "E": 2,
+    "name": "Mısır Lirası/ Gineih"
+  },
+  {
+    "code": "ERN",
+    "No": 232,
+    "E": 2,
+    "name": "Nakfa"
+  },
+  {
+    "code": "ETB",
+    "No": 230,
+    "E": 2,
+    "name": "Etiyopya Birri"
+  },
+  {
+    "code": "EUR",
+    "No": 978,
+    "E": 2,
+    "name": "Avro"
+  },
+  {
+    "code": "FJD",
+    "No": 242,
+    "E": 2,
+    "name": "Fiji Doları"
+  },
+  {
+    "code": "FKP",
+    "No": 238,
+    "E": 2,
+    "name": "Falkland Adaları Lirası"
+  },
+  {
+    "code": "GBP",
+    "No": 826,
+    "E": 2,
+    "name": "İngiliz Sterlini/İngiliz Lirası"
+  },
+  {
+    "code": "GEL",
+    "No": 981,
+    "E": 2,
+    "name": "Gürcistan Lirası/ Lari"
+  },
+  {
+    "code": "GHC",
+    "No": 288,
+    "E": 2,
+    "name": "Cedi"
+  },
+  {
+    "code": "GIP",
+    "No": 292,
+    "E": 2,
+    "name": "Cebelitarık Lirası"
+  },
+  {
+    "code": "GMD",
+    "No": 270,
+    "E": 2,
+    "name": "Dalasi"
+  },
+  {
+    "code": "GNF",
+    "No": 324,
+    "E": 0,
+    "name": "Gine Frangı"
+  },
+  {
+    "code": "GTQ",
+    "No": 320,
+    "E": 2,
+    "name": "Guatemala Kuetzalı"
+  },
+  {
+    "code": "GYD",
+    "No": 328,
+    "E": 2,
+    "name": "Guyana Doları"
+  },
+  {
+    "code": "HKD",
+    "No": 344,
+    "E": 2,
+    "name": "Hong Kong Doları"
+  },
+  {
+    "code": "HNL",
+    "No": 340,
+    "E": 2,
+    "name": "Honduras Lempirası"
+  },
+  {
+    "code": "HRK",
+    "No": 191,
+    "E": 2,
+    "name": "Hırvatistan Kunası"
+  },
+  {
+    "code": "HTG",
+    "No": 332,
+    "E": 2,
+    "name": "Haiti Gourde"
+  },
+  {
+    "code": "HUF",
+    "No": 348,
+    "E": 2,
+    "name": "Macar Forinti"
+  },
+  {
+    "code": "IDR",
+    "No": 360,
+    "E": 2,
+    "name": "Rupiah"
+  },
+  {
+    "code": "ILS",
+    "No": 376,
+    "E": 2,
+    "name": "İsrail Yeni Şekeli"
+  },
+  {
+    "code": "INR",
+    "No": 356,
+    "E": 2,
+    "name": "Hindistan Rupisi"
+  },
+  {
+    "code": "IQD",
+    "No": 368,
+    "E": 3,
+    "name": "Irak Dinarı"
+  },
+  {
+    "code": "IRR",
+    "No": 364,
+    "E": 2,
+    "name": "İran Riyali"
+  },
+  {
+    "code": "ISK",
+    "No": 352,
+    "E": 2,
+    "name": "İzlanda Kronası"
+  },
+  {
+    "code": "JMD",
+    "No": 388,
+    "E": 2,
+    "name": "Jamaika Doları"
+  },
+  {
+    "code": "JOD",
+    "No": 400,
+    "E": 3,
+    "name": "Ürdün Dinarı"
+  },
+  {
+    "code": "JPY",
+    "No": 392,
+    "E": 0,
+    "name": "Japon Yeni"
+  },
+  {
+    "code": "KES",
+    "No": 404,
+    "E": 2,
+    "name": "Kenya Şilini"
+  },
+  {
+    "code": "KGS",
+    "No": 417,
+    "E": 2,
+    "name": "Kırgızistan Somu"
+  },
+  {
+    "code": "KHR",
+    "No": 116,
+    "E": 2,
+    "name": "Riel"
+  },
+  {
+    "code": "KMF",
+    "No": 174,
+    "E": 0,
+    "name": "Komoro Frankı"
+  },
+  {
+    "code": "KPW",
+    "No": 408,
+    "E": 2,
+    "name": "Kuzey Kore Wonu"
+  },
+  {
+    "code": "KRW",
+    "No": 410,
+    "E": 0,
+    "name": "Güney Kore Wonu"
+  },
+  {
+    "code": "KWD",
+    "No": 414,
+    "E": 3,
+    "name": "Kuveyt Dinarı"
+  },
+  {
+    "code": "KYD",
+    "No": 136,
+    "E": 2,
+    "name": "Cayman Adaları Doları"
+  },
+  {
+    "code": "KZT",
+    "No": 398,
+    "E": 2,
+    "name": "Kazak Tengesi"
+  },
+  {
+    "code": "LAK",
+    "No": 418,
+    "E": 2,
+    "name": "Kip"
+  },
+  {
+    "code": "LBP",
+    "No": 422,
+    "E": 2,
+    "name": "Lübnan Lirası"
+  },
+  {
+    "code": "LKR",
+    "No": 144,
+    "E": 2,
+    "name": "Sri Lanka Rupisi"
+  },
+  {
+    "code": "LRD",
+    "No": 430,
+    "E": 2,
+    "name": "Liberya Doları"
+  },
+  {
+    "code": "LSL",
+    "No": 426,
+    "E": 2,
+    "name": "Loti"
+  },
+  {
+    "code": "LTL",
+    "No": 440,
+    "E": 2,
+    "name": "Litvanya Litası"
+  },
+  {
+    "code": "LVL",
+    "No": 428,
+    "E": 2,
+    "name": "Letonya Latsı"
+  },
+  {
+    "code": "LYD",
+    "No": 434,
+    "E": 3,
+    "name": "Libya Dinarı"
+  },
+  {
+    "code": "MAD",
+    "No": 504,
+    "E": 2,
+    "name": "Fas Dirhemı"
+  },
+  {
+    "code": "MDL",
+    "No": 498,
+    "E": 2,
+    "name": "Moldovya Leusu"
+  },
+  {
+    "code": "MGA",
+    "No": 969,
+    "E": 0,
+    "name": "Madagaskar Ariarisi"
+  },
+  {
+    "code": "MKD",
+    "No": 807,
+    "E": 2,
+    "name": " Makedon Dinarı"
+  },
+  {
+    "code": "MMK",
+    "No": 104,
+    "E": 2,
+    "name": "Kyat"
+  },
+  {
+    "code": "MNT",
+    "No": 496,
+    "E": 2,
+    "name": "Tugrik"
+  },
+  {
+    "code": "MOP",
+    "No": 446,
+    "E": 2,
+    "name": "Macau Patakası"
+  },
+  {
+    "code": "MRO",
+    "No": 478,
+    "E": 2,
+    "name": "Ouguiya"
+  },
+  {
+    "code": "MTL",
+    "No": 470,
+    "E": 2,
+    "name": "Malta Lirası"
+  },
+  {
+    "code": "MUR",
+    "No": 480,
+    "E": 2,
+    "name": "Mauritius Rupisi"
+  },
+  {
+    "code": "MVR",
+    "No": 462,
+    "E": 2,
+    "name": "Maldiv Rupisi Rufiyaa"
+  },
+  {
+    "code": "MWK",
+    "No": 454,
+    "E": 2,
+    "name": "Kwacha"
+  },
+  {
+    "code": "MXN",
+    "No": 484,
+    "E": 2,
+    "name": "Meksika Pesosu"
+  },
+  {
+    "code": "MXV",
+    "No": 979,
+    "E": 2,
+    "name": "Mexican Unidad de lnversion (UDi) (Para kodu)"
+  },
+  {
+    "code": "MYR",
+    "No": 458,
+    "E": 2,
+    "name": "Malezya Ringgiti"
+  },
+  {
+    "code": "MZN",
+    "No": 943,
+    "E": 2,
+    "name": "Mozambik Metikali"
+  },
+  {
+    "code": "NAD",
+    "No": 516,
+    "E": 2,
+    "name": "Namibya Doları"
+  },
+  {
+    "code": "NGN",
+    "No": 566,
+    "E": 2,
+    "name": "Naira"
+  },
+  {
+    "code": "NIO",
+    "No": 558,
+    "E": 2,
+    "name": "Kordoba"
+  },
+  {
+    "code": "NOK",
+    "No": 578,
+    "E": 2,
+    "name": "Norveç Kronu"
+  },
+  {
+    "code": "NPR",
+    "No": 524,
+    "E": 21,
+    "name": "Nepal Rupisi"
+  },
+  {
+    "code": "NZD",
+    "No": 554,
+    "E": 2,
+    "name": "Yeni Zelanda Doları"
+  },
+  {
+    "code": "OMR",
+    "No": 512,
+    "E": 3,
+    "name": "Umman Riyali"
+  },
+  {
+    "code": "PAB",
+    "No": 590,
+    "E": 2,
+    "name": "Balboa"
+  },
+  {
+    "code": "PEN",
+    "No": 604,
+    "E": 2,
+    "name": "Nuevo Sol"
+  },
+  {
+    "code": "PGK",
+    "No": 598,
+    "E": 2,
+    "name": "Kina"
+  },
+  {
+    "code": "PHP",
+    "No": 608,
+    "E": 2,
+    "name": "Filipinler Pesosu"
+  },
+  {
+    "code": "PKR",
+    "No": 586,
+    "E": 2,
+    "name": "Pakistan Rupisi"
+  },
+  {
+    "code": "PLN",
+    "No": 985,
+    "E": 2,
+    "name": "Leh Zlotisi"
+  },
+  {
+    "code": "PYG",
+    "No": 600,
+    "E": 0,
+    "name": "Guarani"
+  },
+  {
+    "code": "QAR",
+    "No": 634,
+    "E": 2,
+    "name": "Katar Riyali"
+  },
+  {
+    "code": "ROL",
+    "No": 642,
+    "E": 2,
+    "name": "Eski Romanya Leyi"
+  },
+  {
+    "code": "RON",
+    "No": 946,
+    "E": 2,
+    "name": "Yeni Ley"
+  },
+  {
+    "code": "RSD",
+    "No": 941,
+    "E": 2,
+    "name": "Sırbistan Dinarı"
+  },
+  {
+    "code": "RUB",
+    "No": 643,
+    "E": 2,
+    "name": "Rus Rublesi"
+  },
+  {
+    "code": "RWF",
+    "No": 646,
+    "E": 0,
+    "name": "Rıanda Frankı"
+  },
+  {
+    "code": "SAR",
+    "No": 682,
+    "E": 2,
+    "name": "Suudi Riyali"
+  },
+  {
+    "code": "SBD",
+    "No": 90,
+    "E": 2,
+    "name": "Solomon Adaları Doları"
+  },
+  {
+    "code": "SCR",
+    "No": 690,
+    "E": 2,
+    "name": "Seyşeller Rupisi"
+  },
+  {
+    "code": "SDD",
+    "No": 736,
+    "E": 2,
+    "name": "Sudan Dinar'ı"
+  },
+  {
+    "code": "SEK",
+    "No": 752,
+    "E": 2,
+    "name": "İsveç Kronu"
+  },
+  {
+    "code": "SGD",
+    "No": 702,
+    "E": 2,
+    "name": "Singapur Doları"
+  },
+  {
+    "code": "SHP",
+    "No": 654,
+    "E": 2,
+    "name": "Saint Helena Lira"
+  },
+  {
+    "code": "SIT",
+    "No": 705,
+    "E": 2,
+    "name": "Tolar"
+  },
+  {
+    "code": "SKK",
+    "No": 703,
+    "E": 2,
+    "name": "Slovak Korunası"
+  },
+  {
+    "code": "SLL",
+    "No": 694,
+    "E": 2,
+    "name": "Leone"
+  },
+  {
+    "code": "sos",
+    "No": 706,
+    "E": 2,
+    "name": "Somali Şilini"
+  },
+  {
+    "code": "SRD",
+    "No": 968,
+    "E": 2,
+    "name": "Surinam Doları"
+  },
+  {
+    "code": "STD",
+    "No": 678,
+    "E": 2,
+    "name": "Dobra"
+  },
+  {
+    "code": "SYP",
+    "No": 760,
+    "E": 2,
+    "name": "Suriye Lirası"
+  },
+  {
+    "code": "SZL",
+    "No": 748,
+    "E": 2,
+    "name": "Lilangeni"
+  },
+  {
+    "code": "THB",
+    "No": 764,
+    "E": 2,
+    "name": "Baht"
+  },
+  {
+    "code": "TJS",
+    "No": 972,
+    "E": 2,
+    "name": "Somoni"
+  },
+  {
+    "code": "TMM",
+    "No": 795,
+    "E": 2,
+    "name": "Turkmenistan Manatı"
+  },
+  {
+    "code": "TND",
+    "No": 788,
+    "E": 3,
+    "name": "Tunus Dinarı"
+  },
+  {
+    "code": "TOP",
+    "No": 776,
+    "E": 2,
+    "name": "Pa'anga"
+  },
+  {
+    "code": "TRY",
+    "No": 949,
+    "E": 2,
+    "name": "Türk Lirası"
+  },
+  {
+    "code": "TTD",
+    "No": 780,
+    "E": 2,
+    "name": "Trinidad ve Tobago Doları"
+  },
+  {
+    "code": "TWD",
+    "No": 901,
+    "E": 2,
+    "name": "Yeni Tayvan Doları"
+  },
+  {
+    "code": "TZS",
+    "No": 834,
+    "E": 2,
+    "name": "Tanzanya Şilini"
+  },
+  {
+    "code": "UAH",
+    "No": 980,
+    "E": 2,
+    "name": "Ukrayna Grivnası"
+  },
+  {
+    "code": "UGX",
+    "No": 800,
+    "E": 2,
+    "name": "Uganda Şilini"
+  },
+  {
+    "code": "USD",
+    "No": 840,
+    "E": 2,
+    "name": "Amerikan Doları"
+  },
+  {
+    "code": "USN",
+    "No": 997,
+    "E": 2,
+    "name": ""
+  },
+  {
+    "code": "uss",
+    "No": 998,
+    "E": 2,
+    "name": ""
+  },
+  {
+    "code": "UYU",
+    "No": 858,
+    "E": 2,
+    "name": "Uruguay Pesosu"
+  },
+  {
+    "code": "uzs",
+    "No": 860,
+    "E": 2,
+    "name": "Özbekistan Somu"
+  },
+  {
+    "code": "VEB",
+    "No": 862,
+    "E": 2,
+    "name": "Venezuela Bolivarı"
+  },
+  {
+    "code": "VND",
+    "No": 704,
+    "E": 2,
+    "name": "Dong"
+  },
+  {
+    "code": "vuv",
+    "No": 548,
+    "E": 0,
+    "name": "Vatu"
+  },
+  {
+    "code": "WST",
+    "No": 882,
+    "E": 2,
+    "name": "Samoa  alası"
+  },
+  {
+    "code": "XAF",
+    "No": 950,
+    "E": 0,
+    "name": "CFA Franc BEAC"
+  },
+  {
+    "code": "XAU",
+    "No": 961,
+    "E": "",
+    "name": "Gümüş (1Troy ons) (=31.1034768 gram)"
+  },
+  {
+    "code": "XAU",
+    "No": 959,
+    "E": "",
+    "name": "Altın (1Troy ons) (=31.1034768 gram)"
+  },
+  {
+    "code": "XBA",
+    "No": 955,
+    "E": "",
+    "name": "Avrupa Para Birimi (EURCO) (Bond Piyasası Birimi)"
+  },
+  {
+    "code": "XBB",
+    "No": 956,
+    "E": "",
+    "name": "Avrupa Para Birimi (E.M.U.-6) (Bond Piyasası Birimi)"
+  },
+  {
+    "code": "XBC",
+    "No": 957,
+    "E": "",
+    "name": "Avrupa Hesap Birimi 9 (E.U.A.-9) (Bond Piyasası Birimi)"
+  },
+  {
+    "code": "XBD",
+    "No": 958,
+    "E": "",
+    "name": "Avrupa Hesap Birimi 17 (E.U.A.-17) (Bond Piyasası Birimi)"
+  },
+  {
+    "code": "XCD",
+    "No": 951,
+    "E": 2,
+    "name": "Doğu Karayip doları"
+  },
+  {
+    "code": "XDR",
+    "No": 960,
+    "E": "",
+    "name": "Özel Çekme Hakları"
+  },
+  {
+    "code": "XFO",
+    "No": null,
+    "E": "",
+    "name": "Altın Frank (özel ödeme para birimi)"
+  },
+  {
+    "code": "XFU",
+    "No": null,
+    "E": "",
+    "name": "UIC Frank (özel ödeme para birimi)"
+  },
+  {
+    "code": "XOF",
+    "No": 952,
+    "E": 0,
+    "name": "CFA Franc BCEAO"
+  },
+  {
+    "code": "XPD",
+    "No": 964,
+    "E": "",
+    "name": "Palladium (13 gram Truva)"
+  },
+  {
+    "code": "XPF",
+    "No": 953,
+    "E": 0,
+    "name": "CFP franc"
+  },
+  {
+    "code": "XPT",
+    "No": 962,
+    "E": "",
+    "name": "Platin (13 gram Truva)(= 31.1034768 gram)"
+  },
+  {
+    "code": "XTS",
+    "No": 963,
+    "E": "",
+    "name": "test edilen para birimleri için kullanılır"
+  },
+  {
+    "code": "xxx",
+    "No": 999,
+    "E": "",
+    "name": "Böyle Bir Para Birimi Yok"
+  },
+  {
+    "code": "YER",
+    "No": 886,
+    "E": 2,
+    "name": "Yemen Riyali"
+  },
+  {
+    "code": "ZAR",
+    "No": 710,
+    "E": 2,
+    "name": "Güney Afrika Randı"
+  },
+  {
+    "code": "ZMK",
+    "No": 894,
+    "E": 2,
+    "name": "Kwacha"
+  },
+  {
+    "code": "ZWD",
+    "No": 716,
+    "E": 2,
+    "name": "Zimbabve Doları"
+  }
+]

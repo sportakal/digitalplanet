@@ -1,0 +1,122 @@
+[
+    {
+        "taxNumber": "0003",
+        "taxName": "GELİR VERGİSİ STOPAJI",
+        "taxCode": "STPJ"
+    },
+    {
+        "taxNumber": "0015",
+        "taxName": "GERÇEK USULDE KATMA DEGER VERGİSİ",
+        "taxCode": "KDV GERCEK"
+    },
+    {
+        "taxNumber": "0061",
+        "taxName": "KAYNAK KULLANIMI DESTEKLEME FONU KESİNTİSİ",
+        "taxCode": "KKDF KESİNTİ"
+    },
+    {
+        "taxNumber": "0071",
+        "taxName": "PETROL VE DOGALGAZ ÜRÜNLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 1.LİSTE"
+    },
+    {
+        "taxNumber": "0073",
+        "taxName": "KOLALI GAZOZ, ALKOLLÜ İÇEÇEKLER VE TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 3.LİSTE"
+    },
+    {
+        "taxNumber": "0074",
+        "taxName": "DAYANIKLI TÜKETİM VE DİGER MALLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 4.LİSTE"
+    },
+    {
+        "taxNumber": "0075",
+        "taxName": "ALKOLLÜ İÇEÇEKLERE İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 3A LİSTE"
+    },
+    {
+        "taxNumber": "0076",
+        "taxName": "TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 3B LİSTE"
+    },
+    {
+        "taxNumber": "0077",
+        "taxName": "KOLALI GAZOZLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ",
+        "taxCode": "ÖTV 3C LİSTE"
+    },
+    {
+        "taxNumber": "1047",
+        "taxName": "DAMGA VERGİSİ",
+        "taxCode": "DAMGA V"
+    },
+    {
+        "taxNumber": "1048",
+        "taxName": "5035 SAYILI KANUNA GÖRE DAMGA VERGİSİ",
+        "taxCode": "5035SKDAMGAV"
+    },
+    {
+        "taxNumber": "4071",
+        "taxName": "ELEKTRİK VE HAVAGAZI TÜKETİM VERGİSİ",
+        "taxCode": "ELK.HAVAGAZ.TÜK.VER."
+    },
+    {
+        "taxNumber": "4080",
+        "taxName": "ÖZEL İLETİŞİM VERGİSİ",
+        "taxCode": "Ö.İLETİŞİM V"
+    },
+    {
+        "taxNumber": "4081",
+        "taxName": "5035 SAYILI KANUNA GÖRE ÖZEL İLETİŞİM VERGİSİ",
+        "taxCode": "5035ÖZİLETV."
+    },
+    {
+        "taxNumber": "8001",
+        "taxName": "BORSA TESCİL ÜCRETİ",
+        "taxCode": "BORSA TES.ÜC."
+    },
+    {
+        "taxNumber": "8002",
+        "taxName": "ENERJİ FONU",
+        "taxCode": "ENERJİ FONU"
+    },
+    {
+        "taxNumber": "8004",
+        "taxName": "TRT PAYI",
+        "taxCode": "TRT PAYI"
+    },
+    {
+        "taxNumber": "8005",
+        "taxName": "ELEKTRİK TÜKETİM VERGİSİ",
+        "taxCode": "ELK.TÜK .VER."
+    },
+    {
+        "taxNumber": "8006",
+        "taxName": "TELSİZ KULLANIM ÜCRETİ",
+        "taxCode": "TK KULLANIM"
+    },
+    {
+        "taxNumber": "8007",
+        "taxName": "TELSİZ RUHSAT ÜCRETİ",
+        "taxCode": "TK RUHSAT"
+    },
+    {
+        "taxNumber": "8008",
+        "taxName": "ÇEVRE TEMİZLİK VERGİSİ",
+        "taxCode": "ÇEV. TEM .VER."
+    },
+    {
+        "taxNumber": "9021",
+        "taxName": "4961 BANKA SİGORTA MUAMELELERİ VERGİSİ",
+        "taxCode": "4961BANKASMV"
+    },
+    {
+        "taxNumber": "9040",
+        "taxName": "MERA FONU",
+        "taxCode": "MERA FONU"
+    },
+    {
+        "taxNumber": "9077",
+        "taxName": "MOTORLU TAŞIT ARAÇLARINA İLİŞKİN ÖZEL TÜKETİM VERGİSİ (TESCİLE TABİ OLANLAR)",
+        "taxCode": "ÖTV 2.LİSTE"
+    }
+]

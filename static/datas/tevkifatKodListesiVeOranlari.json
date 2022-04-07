@@ -1,0 +1,173 @@
+[
+  {
+    "code": 601,
+    "name": "Yapım İşleri İle Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve Etüt-Proje Hizmetleri *Gt 117-Bölüm (3.2.1)",
+    "rate": [
+      20
+    ]
+  },
+  {
+    "code": 602,
+    "name": "Etüt, Plan-Proje,Danışmanlık, Denetim Ve Benzeri Hizmetler -Gt 117-Bölüm (3.2.2)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 603,
+    "name": "Makine,Teçhizat,Demirbaş Ve Taşıtlara Ait Tadil,Bakım Ve Onarım Hizmetleri *Gt 117-Bölüm {3.2.3)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 604,
+    "name": "Yemek Servis Hizmeti *Gt 117-Bölüm {3.2.4)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 605,
+    "name": "Organizasyon Hizmeti *Gt 117-Bölüm {3.2.4)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 606,
+    "name": "İşgücü Temin Hizmetleri *Gt 117-Bölüm (3.2.5)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 607,
+    "name": "Özel Güvenlik Hizmeti *Gt 117-Bölüm {3.2.S)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 608,
+    "name": "Yapı Denetim Hizmetleri *Gt 117-Bölüm {3.2.6)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 609,
+    "name": "Fason Olarak Yaptırılan Tekstil Ve Konfeksiyon İşleri,Çanta Ve Ayakkabı Dikim İşleri Ve Bu İşlere Aracılık  Hizmetleri *Gt 117-Bölüm (3.2.7)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 610,
+    "name": "Turistik Mağazalara Verilen Müşteri Bulma / Götürme Hizmetleri *Gt 117-Bölüm (3.2.8)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 611,
+    "name": "Spor Kulüplerinin Yayın, Reklam Ve İsim Hakkı Gelirlerine Konu İşlemleri *Gt 117-Bölüm (3.2.9)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 612,
+    "name": "Temizlik Hizmeti *Gt 117-Bölüm (3.2.10)",
+    "rate": [
+      70
+    ]
+  },
+  {
+    "code": 613,
+    "name": "Çevre Ve Bahçe Bakım Hizmetleri *Gt 117-Bölüm (3.2.10)",
+    "rate": [
+      70
+    ]
+  },
+  {
+    "code": 614,
+    "name": "Servis Taşımacılığı Hizmeti *Gt 117-Bölüm (3.2.11)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 615,
+    "name": "Her Türlü Baskı Ve Basım Hizmetleri *Gt 117-Bölüm (3.2.12)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 616,
+    "name": "5018 Sayılı Kanuna Ekli Cetvellerdeki İdare, Kurum Ve Kuruşlara Yapılan Diğer Hizmetler -Gt  117-Bölüm  (3.2.13)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 617,
+    "name": "Hurda Metalden Elde Edilen Külçe Teslimleri *Gt 117-Bölüm (3.3.1)",
+    "rate": [
+      70
+    ]
+  },
+  {
+    "code": 618,
+    "name": "Hurda Metalden Elde Edilenler Dışındaki Bakır, Çinko Ve Alüminyum Külçe Teslimleri *Gt 117-Bölüm (3.3.1)",
+    "rate": [
+      70
+    ]
+  },
+  {
+    "code": 619,
+    "name": "Bakır, Çinko Ve Alüminyum Ürünlerinin Teslimi *Gt 117-Bölüm (3.3.2)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 620,
+    "name": "İstisnadan Vazgeçenlerin  Hurda Ve Atık Teslimi *Gt 117-Bölüm (3.3.3)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 621,
+    "name": "Metal, Plastik, Lastik, Kauçuk, Kağıt Ve Cam Hurda Ve Atıklardan Elde Edilen Hammadde Teslimi *Gt 117-Bölüm (3.3.4)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 622,
+    "name": "Pamuk, Tiftik, Yün Ve Yapağı İle Ham Post Ve Deri Teslimleri *Gt 117-Bölüm (3.3.5)",
+    "rate": [
+      90
+    ]
+  },
+  {
+    "code": 623,
+    "name": "Ağaç Ve Orman Ürünleri Teslimi *Gt 117-Bölüm (3.3.6)",
+    "rate": [
+      50
+    ]
+  },
+  {
+    "code": 650,
+    "name": "Diğerleri",
+    "rate": [
+      20,
+      50,
+      70,
+      90
+    ]
+  }
+]
