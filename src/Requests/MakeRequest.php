@@ -3,6 +3,7 @@
 namespace Sportakal\Digitalplanet\Requests;
 
 use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
 use Sportakal\Digitalplanet\Helpers\CreateNode;
 use Sportakal\Digitalplanet\Helpers\CreateXml;
 use Sportakal\Digitalplanet\Responses\Response;
@@ -61,7 +62,7 @@ class MakeRequest
 //            dd($this->xml_string);
 //        }
 
-        $response = Client::post($this->getOptions()->getUrl(), [
+        $response = Http::post($this->getOptions()->getUrl(), [
             'headers' => [
                 'Content-Type' => 'text/xml; charset=utf-8',
                 'SOAPAction' => $this->SOAPAction,
