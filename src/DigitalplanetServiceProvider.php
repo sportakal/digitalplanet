@@ -52,6 +52,20 @@ class DigitalplanetServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../routes/routes.php');
     }
 
+    /**
+     * Configure the publishable resources offered by the package.
+     *
+     * @return void
+     */
+    protected function configurePublishing()
+    {
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../stubs/fortify.php' => config_path('fortify.php'),
+            ], $this->packageName . '-config');
+        }
+    }
+
     protected function bootForConsole()
     {
         // Publishing the configuration file
