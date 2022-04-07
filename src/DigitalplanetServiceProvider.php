@@ -17,7 +17,7 @@ class DigitalplanetServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . "/../config/$this->packageName.php", $this->packageName);
+        $this->mergeConfigFrom(__DIR__ . "/../config/$this->packageName.php", $this->packageName, 'digitalplanet');
     }
 
     /**
