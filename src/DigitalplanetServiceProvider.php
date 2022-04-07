@@ -61,7 +61,7 @@ class DigitalplanetServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../stubs/fortify.php' => config_path('fortify.php'),
+                __DIR__ . '/../config/' . $this->packageName . '.php' => config_path($this->packageName . '.php'),
             ], $this->packageName . '-config');
         }
     }
