@@ -4,7 +4,7 @@ Aşağıdaki komut ile config.php dosyasını uygulamanıza yayınlayabilirsiniz
 değişkenlerinizi .env'den dosyasında tutabilmenize yarar.
 
 ```shell
-$ php artisan vendor:publish --provider=Sportakal\Digitalplanet\DigitalplanetServiceProvider
+$ php artisan vendor:publish --tag=digitalplanet-config
 ````
 
 Bu işlemi yaptıktan sonra, .env dosyanızda api bilgilerinizi saklayabilirsiniz.
@@ -225,5 +225,5 @@ $SendInvoiceData = new SendEArchiveData($corporateCode, $invoiceRawData);
 $response = $SendInvoiceData->send();
 return $response->getSoapResult();
 ```
-  
+
 # digitalplanet

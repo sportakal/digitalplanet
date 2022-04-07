@@ -52,26 +52,13 @@ class DigitalplanetServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../routes/routes.php');
     }
 
-    /**
-     * Configure the publishable resources offered by the package.
-     *
-     * @return void
-     */
-    protected function configurePublishing()
-    {
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__ . '/../config/' . $this->packageName . '.php' => config_path($this->packageName . '.php'),
-            ], $this->packageName . '-config');
-        }
-    }
-
     protected function bootForConsole()
     {
         // Publishing the configuration file
         $this->publishes([
             __DIR__ . '/../config/' . $this->packageName . '.php' => config_path($this->packageName . '.php'),
-        ], 'config');
+        ], $this->packageName . '-config');
+
 
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
 
