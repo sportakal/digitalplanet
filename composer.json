@@ -1,0 +1,30 @@
+{
+  "name": "sportakal/digitalplanet",
+  "autoload": {
+    "psr-4": {
+      "Sportakal\\Digitalplanet\\": "./src"
+    }
+  },
+  "authors": [
+    {
+      "name": "sportakal",
+      "email": "portakalsinan@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/laravel": "*",
+    "illuminate/support": "^6.9|^7.0|^8.0|^9.0",
+    "ext-dom": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sportakal\\Digitalplanet\\DigitalplanetServiceProvider"
+      ]
+    }
+  }
+}
