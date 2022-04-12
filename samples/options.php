@@ -3,9 +3,9 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 
-$options = new \Sportakal\Digitalplanet\Options('PEPORTAKAL',
+$options = new \Sportakal\Digitalplanet\Options('CORPORATECODE',
     'wsadmintest',
-    '|tp}gAme.O',
+    'password',
     'https://trendyolintegrationservicewithoutmtomtest.digitalplanet.com.tr/IntegrationService.asmx');
 
 return $options;
