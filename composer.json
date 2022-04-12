@@ -15,11 +15,15 @@
     }
   ],
   "require": {
+    "php": ">=7.4",
     "ext-dom": "*",
     "ext-simplexml": "*",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^5.4"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "php-sage/sage": "^1.2"
   }
 }

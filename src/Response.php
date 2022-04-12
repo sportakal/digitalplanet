@@ -2,16 +2,16 @@
 
 namespace Sportakal\Digitalplanet;
 
-use CurlHandle;
+use Sportakal\Digitalplanet\Utils\Curl;
 use Sportakal\Digitalplanet\Utils\XmlParser;
 
 class Response
 {
-    protected CurlHandle $curl;
+    protected $curl;
     protected string $result;
     protected string $requestMethod;
 
-    public function __construct(CurlHandle $curl, string $result, string $requestMethod)
+    public function __construct($curl, string $result, string $requestMethod)
     {
         $this->curl = $curl;
         $this->result = $result;
@@ -27,9 +27,9 @@ class Response
     }
 
     /**
-     * @return mixed
+     * @return array
      */
-    public function getInfo(): mixed
+    public function getInfo(): array
     {
         return curl_getinfo($this->curl);
     }
@@ -45,10 +45,10 @@ class Response
 
     /**
      * @param $key
-     * @return mixed
+     * @return array|string|null
      * @throws \JsonException
      */
-    public function getValue($key): mixed
+    public function getValue($key)
     {
         return (new XmlParser($this->getRawBody()))->getValue($key);
     }
@@ -57,7 +57,7 @@ class Response
      * @return array|string
      * @throws \JsonException
      */
-    public function getResult(): array|string
+    public function getResult()
     {
         return $this->getValue($this->requestMethod . 'Result');
     }
