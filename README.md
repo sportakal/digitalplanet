@@ -108,6 +108,10 @@ echo base64_decode($response->getValue('ReturnValue'));
 E-Fatura Düzenleyin ve gönderin.
 
 ```php
+use Sportakal\Digitalplanet\Requests\SendInvoiceData;
+use Sportakal\Digitalplanet\Make;
+use Sportakal\Digitalplanet\Models\*;
+
 ////////////////////// RECIPIENT INFO ////////////////////////////
 $recipientAddress = new Address();
 $recipientAddress->setCountry('Türkiye');
@@ -120,7 +124,6 @@ $recipientInfo->setPartyName('SC B&B Collection SRL');
 $recipientInfo->setPartyTaxScheme('Pamukkale V.D.');
 $recipientInfo->setAddress($recipientAddress);
 ////////////////////// RECIPIENT INFO ////////////////////////////
-
 
 ////////////////////// SENDER INFO ////////////////////////////
 $senderAddress = new Address();
@@ -234,7 +237,7 @@ $invoice->setNotes($notes);
 $invoices = new Invoices($invoice);
 $SendInvoiceData = new SendInvoiceData($options->getCorporateCode(), $invoices, '', '');
 
-$response = \Sportakal\Digitalplanet\Make::exec($SendInvoiceData, $options);
+$response = Make::exec($SendInvoiceData, $options);
 
 echo $response->getStatusDesc();
 ```
