@@ -2,7 +2,7 @@
 
 $options = require './options.php';
 
-$GetEArchiveInvoiceRequest = (new \Sportakal\Digitalplanet\Requests\GetEArchiveInvoiceRequest('TRL2022000000003'));
+$GetEArchiveInvoiceRequest = new \Sportakal\Digitalplanet\Requests\GetEArchiveInvoiceRequest('TRL2022000000003', 'INVOICEID', 'PDF');
 
 $response = \Sportakal\Digitalplanet\Make::exec($GetEArchiveInvoiceRequest, $options);
 

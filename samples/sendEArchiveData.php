@@ -106,17 +106,17 @@ $senderAddress->setCountry('Türkiye');
 $senderAddress->setCityName('Denizli');
 $senderAddress->setCitySubdivisionName('Pamukkale');
 $senderAddress->setRoom('');
-$senderAddress->setStreetName('Kınıklı Mah. Çamlık Bulv.');
-$senderAddress->setBuildingName('Bingül Hanım İş Merkezi');
-$senderAddress->setBuildingNumber('76');
+$senderAddress->setStreetName('');
+$senderAddress->setBuildingName('');
+$senderAddress->setBuildingNumber('');
 $senderAddress->setPostalZone('20100');
 $senderAddress->setRegion('Pamukkale');
-$senderAddress->setId('34191356');
+$senderAddress->setId('');
 
 $senderCommunicationChannels = new CommunicationChannels();
-$senderCommunicationChannels->setTelephone('+90 (555) 470 50 20');
+$senderCommunicationChannels->setTelephone('');
 $senderCommunicationChannels->setTelefax('');
-$senderCommunicationChannels->setElectronicalMail('hello@simpliers.com');
+$senderCommunicationChannels->setElectronicalMail('');
 
 
 $senderInfo = new SenderInfo();
@@ -133,7 +133,7 @@ $senderInfo = new SenderInfo();
 /* EĞER GÖNDEREN ŞAHIS İSE BU ALAN KULLANILMALIDIR */
 
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
-$senderInfo->setIdentification(new Identification('VKN', '7230826945'));
+$senderInfo->setIdentification(new Identification('VKN', '9876543210'));
 $senderInfo->setPartyName('PE PORTAKAL ENERJİ BİLİŞİM LİMİTED ŞİRKETİ');
 $senderInfo->setPartyTaxScheme('Pamukkale Vergi Dairesi');
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
@@ -141,7 +141,7 @@ $senderInfo->setPartyTaxScheme('Pamukkale Vergi Dairesi');
 /* EĞER GÖNDEREN ŞİRKETİN ALT BAYİSİ İSE BU ALAN KULLANILMALIDIR */
 //        $senderAgentParty = new AgentParty();
 //        $senderAgentParty->setPerson($senderPerson);
-//        $senderAgentParty->setIdentification(new Identification('VKN', '7230826945'));
+//        $senderAgentParty->setIdentification(new Identification('VKN', '9876543210'));
 //        $senderAgentParty->setPartyName('Ana Bayii');
 //        $senderAgentParty->setWebUrl('www.efatura.gov.tr');
 //        $senderAgentParty->setAddress($senderAddress);
@@ -179,7 +179,7 @@ $invoiceInfo->setInvoiceId(time());
 $invoiceInfo->setLineCount(1);
 $invoiceInfo->setScenario('TEMELFATURA');
 $invoiceInfo->setIssueDate(date('Y-m-d'));
-$invoiceInfo->setIssueTime(date('Y-m-d'));
+$invoiceInfo->setIssueTime(date('H:i:s'));
 $invoiceInfo->setInvoiceTypeCode('SATIS');
 $invoiceInfo->setCopyIndicator('false');
 $invoiceInfo->setUuid(GuidCreator::get());
@@ -335,7 +335,7 @@ $invoice->setECommerceInfo($eCommerceInfo);
 $invoice->setCashRegisterInfo($cashRegisterInfo);
 
 $invoices = new Invoices($invoice);
-$SendEArchiveDataRequest = (new \Sportakal\Digitalplanet\Requests\SendEArchiveDataRequest($options->getCorporateCode(), $invoices, 'MANUAL', '', ''));
+$SendEArchiveDataRequest = new \Sportakal\Digitalplanet\Requests\SendEArchiveDataRequest($options->getCorporateCode(), $invoices, 'MANUAL', '', '');
 
 $response = \Sportakal\Digitalplanet\Make::exec($SendEArchiveDataRequest, $options);
 

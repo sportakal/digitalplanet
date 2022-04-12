@@ -2,7 +2,7 @@
 
 $options = require './options.php';
 
-$GetInvoiceByInvoiceIDRequest = (new \Sportakal\Digitalplanet\Requests\GetInvoiceByInvoiceIDRequest('TRN2022000000041', 'Outgoing'));
+$GetInvoiceByInvoiceIDRequest = new \Sportakal\Digitalplanet\Requests\GetInvoiceByInvoiceIDRequest('TRN2022000000041', 'Outgoing');
 
 $response = \Sportakal\Digitalplanet\Make::exec($GetInvoiceByInvoiceIDRequest, $options);
 

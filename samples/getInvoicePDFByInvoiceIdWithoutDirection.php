@@ -2,7 +2,7 @@
 
 $options = require './options.php';
 
-$GetInvoicePDFByInvoiceIdWithoutDirectionRequest = (new \Sportakal\Digitalplanet\Requests\GetInvoicePDFByInvoiceIdWithoutDirectionRequest('TRN2022000000041'));
+$GetInvoicePDFByInvoiceIdWithoutDirectionRequest = new \Sportakal\Digitalplanet\Requests\GetInvoicePDFByInvoiceIdWithoutDirectionRequest('TRN2022000000041');
 
 $response = \Sportakal\Digitalplanet\Make::exec($GetInvoicePDFByInvoiceIdWithoutDirectionRequest, $options);
 

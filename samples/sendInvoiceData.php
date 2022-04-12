@@ -37,6 +37,7 @@ use Sportakal\Digitalplanet\Models\Taxes;
 use Sportakal\Digitalplanet\Models\TaxScheme;
 use Sportakal\Digitalplanet\Models\TaxSubTotals;
 use Sportakal\Digitalplanet\Models\TaxTotal;
+use Sportakal\Digitalplanet\Requests\SendInvoiceData;
 use Sportakal\Digitalplanet\Requests\SendXmlInvoiceRequest;
 use Sportakal\Digitalplanet\Utils\GuidCreator;
 
@@ -134,7 +135,7 @@ $senderInfo = new SenderInfo();
 
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
 $senderInfo->setIdentification(new Identification('VKN', '9876543210'));
-$senderInfo->setPartyName('9876543210');
+$senderInfo->setPartyName('PE PORTAKAL ENERJİ BİLİŞİM LİMİTED ŞİRKETİ');
 $senderInfo->setPartyTaxScheme('Pamukkale Vergi Dairesi');
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
 
@@ -335,9 +336,9 @@ $invoice->setECommerceInfo($eCommerceInfo);
 $invoice->setCashRegisterInfo($cashRegisterInfo);
 
 $invoices = new Invoices($invoice);
-$SendInvoiceDataWithTemplateCodeRequest = new \Sportakal\Digitalplanet\Requests\SendInvoiceDataWithTemplateCodeRequest($options->getCorporateCode(), $invoices, 'MANUAL', '', '');
+$SendInvoiceData = new SendInvoiceData($options->getCorporateCode(), $invoices, '', '');
 
-$response = \Sportakal\Digitalplanet\Make::exec($SendInvoiceDataWithTemplateCodeRequest, $options);
+$response = \Sportakal\Digitalplanet\Make::exec($SendInvoiceData, $options);
 
 if ($response->isSuccessful()) {
     sdebug($response->getResult());
