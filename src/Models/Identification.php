@@ -24,7 +24,7 @@ class Identification extends DigitalplanetModel
     /**
      * @param string $Value
      */
-    public function setValue(int $Value): void
+    public function setValue(string $Value): void
     {
         $this->Value = $Value;
     }
