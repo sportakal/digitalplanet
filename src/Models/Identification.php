@@ -5,9 +5,9 @@ namespace Sportakal\Digitalplanet\Models;
 class Identification extends DigitalplanetModel
 {
     protected string $Attribute;
-    protected int $Value;
+    protected string $Value;
 
-    public function __construct(string $Attribute, int $Value)
+    public function __construct(string $Attribute, string $Value)
     {
         $this->Attribute = $Attribute;
         $this->Value = $Value;
