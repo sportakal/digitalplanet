@@ -133,7 +133,7 @@ $senderInfo = new SenderInfo();
 /* EĞER GÖNDEREN ŞAHIS İSE BU ALAN KULLANILMALIDIR */
 
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
-$senderInfo->setIdentification(new Identification('VKN', '9876543210'));
+$senderInfo->setIdentification(new Identification('VKN', $_ENV['VKN'] ?? '9876543210'));
 $senderInfo->setPartyName('PE PORTAKAL ENERJİ BİLİŞİM LİMİTED ŞİRKETİ');
 $senderInfo->setPartyTaxScheme('Pamukkale Vergi Dairesi');
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
@@ -296,7 +296,8 @@ $notes->addNote('Test Notes 2');
 ////////////////////// NOTES ////////////////////////////
 
 ////////////////////// OPTIONS ////////////////////////////
-$invoiceOptions = new Options('Iskonto', '2');
+$invoiceOptions = new Options('Try_Prices', '2145.45');
+$invoiceOptions2 = new Options('Iskonto', '2');
 ////////////////////// OPTIONS ////////////////////////////
 
 ////////////////////// ECOMMERCE INFO ////////////////////////////
@@ -331,6 +332,7 @@ $invoice->setExchangeRate($exchangeRate);
 $invoice->setAllowanceCharge($allowanceCharge);
 $invoice->setNotes($notes);
 $invoice->setOptions($invoiceOptions);
+$invoice->setOptions2($invoiceOptions2);
 $invoice->setECommerceInfo($eCommerceInfo);
 $invoice->setCashRegisterInfo($cashRegisterInfo);
 

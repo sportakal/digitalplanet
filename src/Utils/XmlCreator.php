@@ -38,7 +38,7 @@ class XmlCreator
      * @return DOMElement|bool
      * @throws \DOMException
      */
-    protected function addSoapElements(): DOMElement|bool
+    protected function addSoapElements()
     {
         $dom = $this->dom;
 
@@ -55,9 +55,12 @@ class XmlCreator
     }
 
     /**
+     * @param DOMDocument $dom
+     * @param DOMElement|DOMDocument $parent
+     * @param array $data
      * @throws \DOMException
      */
-    private function createNode(DOMDocument $dom, DOMElement|DOMDocument $parent, array $data): void
+    private function createNode(DOMDocument $dom, $parent, array $data): void
     {
         foreach ($data as $key => $value) {
             if (str_starts_with($key, '_')) {
@@ -66,6 +69,10 @@ class XmlCreator
 
             if (!$key || is_int($key)) {
                 $key = $data['_key'] ?? null;
+            }
+
+            if (isset($value['_parent_key'])) {
+                $key = $value['_parent_key'];
             }
 
             if (!$key) {
