@@ -5,9 +5,9 @@ namespace Sportakal\Digitalplanet\Requests;
 
 class CheckCustomerTaxIdRequest extends DigitalplanetRequest
 {
-    protected int $TaxIdOrPersonalId;
+    protected string $TaxIdOrPersonalId;
 
-    public function __construct(int $TaxIdOrPersonalId)
+    public function __construct(string $TaxIdOrPersonalId)
     {
         $this->TaxIdOrPersonalId = $TaxIdOrPersonalId;
     }
