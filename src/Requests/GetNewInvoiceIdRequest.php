@@ -18,7 +18,7 @@ class GetNewInvoiceIdRequest extends DigitalplanetRequest
         string $Year,
         string $reconciliationid,
         string $InvoiceType, //0:efatura, 1:e-arşiv, 2:e-arşiv ticari
-        string $TemplateCode,
+        string $TemplateCode
     )
     {
         $this->Year = $Year;

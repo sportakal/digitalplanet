@@ -39,7 +39,7 @@ class XmlParser
     /**
      * @return string|array|null
      */
-    public function getValue(string $key, $arr = null): string|array|null
+    public function getValue(string $key, $arr = null)
     {
         $foundValue = null;
         if (!$arr) {

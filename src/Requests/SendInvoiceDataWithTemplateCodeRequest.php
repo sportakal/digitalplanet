@@ -21,7 +21,7 @@ class SendInvoiceDataWithTemplateCodeRequest extends DigitalplanetRequest
         Invoices $Invoices,
         string   $TemplateCode = 'MANUAL',
         string   $MapCode = '',
-        string   $ReceiverPostboxName = '',
+        string   $ReceiverPostboxName = ''
     )
     {
         $this->CorporateCode = $CorporateCode;

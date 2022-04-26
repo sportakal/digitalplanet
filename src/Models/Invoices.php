@@ -16,7 +16,6 @@ class Invoices extends DigitalplanetModel
         if (!$Version) {
             $Version = '2.1';
         }
-
         $this->Invoices = [
             'Version' => $Version,
             'Invoice' => $Invoice->toArray()

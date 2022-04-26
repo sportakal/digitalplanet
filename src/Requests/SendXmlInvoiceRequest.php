@@ -19,7 +19,7 @@ class SendXmlInvoiceRequest extends DigitalplanetRequest
         string   $CorporateCode,
         Invoices $Invoices,
         string   $MapCode = '',
-        string   $ReceiverPostboxName = '',
+        string   $ReceiverPostboxName = ''
     )
     {
         $this->CorporateCode = $CorporateCode;

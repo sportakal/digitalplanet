@@ -21,7 +21,7 @@ class SendEArchiveDataWithTemplateCodeRequest extends DigitalplanetRequest
         Invoices $Invoices,
         string   $TemplateCode = 'EARCHIVE',
         string   $MapCode = '',
-        string   $ReceiverPostboxName = '',
+        string   $ReceiverPostboxName = ''
     )
     {
 

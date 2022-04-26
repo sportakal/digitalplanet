@@ -133,7 +133,7 @@ $senderInfo = new SenderInfo();
 /* EĞER GÖNDEREN ŞAHIS İSE BU ALAN KULLANILMALIDIR */
 
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */
-$senderInfo->setIdentification(new Identification('VKN', '9876543210'));
+$senderInfo->setIdentification(new Identification('VKN',  $_ENV['VKN'] ?? '9876543210'));
 $senderInfo->setPartyName('PE PORTAKAL ENERJİ BİLİŞİM LİMİTED ŞİRKETİ');
 $senderInfo->setPartyTaxScheme('Pamukkale Vergi Dairesi');
 /* EĞER GÖNDEREN ŞİRKET İSE BU ALAN KULLANILMALIDIR */

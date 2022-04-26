@@ -2,7 +2,6 @@
 
 namespace Sportakal\Digitalplanet;
 
-use CurlHandle;
 use Sportakal\Digitalplanet\Requests\GetFormsAuthenticationTicketRequest;
 use Sportakal\Digitalplanet\Requests\RequestInterface;
 use Sportakal\Digitalplanet\Utils\Curl;

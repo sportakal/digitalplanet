@@ -220,17 +220,37 @@ $item->setSellersItemIdentification('Bc4321');
 $item->setManufacturersItemIdentification('Dc4567');
 $item->setComodityClassification('302');
 
-$line = new Line();
-$line->setId('1');
-$line->setNote('Ürün A');
-$line->setInvoicedQuantity(new InvoicedQuantity('C62', 1));
-$line->setLineExtensionAmount(new Price(Currencies::USD, 19.9));
-$line->setTaxTotal($taxTotal);
-$line->setItem($item);
-$line->setPrice(new Price(Currencies::USD, 16.865));
+$line1 = new Line();
+$line1->setId('1');
+$line1->setNote('Ürün A');
+$line1->setInvoicedQuantity(new InvoicedQuantity('C62', 1));
+$line1->setLineExtensionAmount(new Price(Currencies::USD, 19.9));
+$line1->setTaxTotal($taxTotal);
+$line1->setItem($item);
+$line1->setPrice(new Price(Currencies::USD, 16.865));
+
+$line2 = new Line();
+$line2->setId('2');
+$line2->setNote('Ürün B');
+$line2->setInvoicedQuantity(new InvoicedQuantity('C62', 1));
+$line2->setLineExtensionAmount(new Price(Currencies::USD, 19.9));
+$line2->setTaxTotal($taxTotal);
+$line2->setItem($item);
+$line2->setPrice(new Price(Currencies::USD, 16.865));
+
+$line3 = new Line();
+$line3->setId('3');
+$line3->setNote('Ürün C');
+$line3->setInvoicedQuantity(new InvoicedQuantity('C62', 1));
+$line3->setLineExtensionAmount(new Price(Currencies::USD, 19.9));
+$line3->setTaxTotal($taxTotal);
+$line3->setItem($item);
+$line3->setPrice(new Price(Currencies::USD, 16.865));
 
 $invoiceLines = new InvoiceLines();
-$invoiceLines->setLine($line);
+$invoiceLines->setLine($line1);
+$invoiceLines->setLine($line2);
+$invoiceLines->setLine($line3);
 ////////////////////// INVOICE LINES ////////////////////////////
 
 
