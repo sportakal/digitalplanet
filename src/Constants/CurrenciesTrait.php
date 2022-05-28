@@ -2,7 +2,7 @@
 
 namespace Sportakal\Digitalplanet\Constants;
 
-class Currencies
+class CurrenciesTrait
 {
     public const AED = 'AED'; //Dirhams
     public const AFN = 'AFN'; //Afgan
