@@ -1,5 +1,6 @@
 {
   "name": "sportakal/digitalplanet",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Sportakal\\Digitalplanet\\": "./src"

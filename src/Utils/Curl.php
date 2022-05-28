@@ -14,10 +14,11 @@ class Curl
 
     /**
      * @param string $url
-     * @param array $headers
      * @param string $body
+     * @param array $headers
+     * @param string $requestMethod
      */
-    public function __construct(string $url, string $body, array $headers, string $requestMethod)
+    public function __construct(string $url, string $body, array $headers = [], string $requestMethod = '')
     {
         $this->url = $url;
         $this->body = $body;
@@ -26,7 +27,7 @@ class Curl
         $this->make();
     }
 
-    protected function make()
+    protected function make(): void
     {
         $curl = curl_init();
 
@@ -46,7 +47,7 @@ class Curl
         $this->response = new Response($curl, $result, $this->requestMethod);
     }
 
-    public function getResponse()
+    public function getResponse(): Response
     {
         return $this->response;
     }
