@@ -43,10 +43,10 @@ class Curl
         ));
 
         $result = curl_exec($curl);
-        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
         curl_close($curl);
-        if ($httpcode === 200) {
-            throw new \Exception("Status Code: $httpcode Error: $result");
+        if ($http_code !== 200) {
+            throw new \Exception("Status Code: $http_code Error: $result");
         }
         $this->response = new Response($curl, $result, $this->requestMethod);
     }
