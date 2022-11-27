@@ -21,7 +21,7 @@ class Curl
     public function __construct(string $url, string $body, array $headers = [], string $requestMethod = '')
     {
         $this->url = $url;
-        $this->body = $body;
+        $this->body = trim(preg_replace('/\s\s+/', '', $body));
         $this->headers = $headers;
         $this->requestMethod = $requestMethod;
         $this->make();
@@ -43,7 +43,11 @@ class Curl
         ));
 
         $result = curl_exec($curl);
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
         curl_close($curl);
+        if ($httpcode === 200) {
+            throw new \Exception("Status Code: $httpcode Error: $result");
+        }
         $this->response = new Response($curl, $result, $this->requestMethod);
     }
 
