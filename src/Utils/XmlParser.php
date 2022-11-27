@@ -19,13 +19,17 @@ class XmlParser
     /**
      * @throws \JsonException
      */
-    protected function parse()
+    protected function parse(): void
     {
         $body = $this->xml;
         $body = strtr($body, ['<soap:' => '<soap', '</soap:' => '</soap']);
         $simplexml_object = simplexml_load_string($body);
         $json = json_encode($simplexml_object, JSON_THROW_ON_ERROR);
-        $this->array = json_decode($json, TRUE, 512, JSON_THROW_ON_ERROR);
+        try {
+            $this->array = json_decode($json, TRUE, 512, JSON_THROW_ON_ERROR);
+        } catch (\JsonException $e) {
+            throw new \Exception($e->getMessage() . ' - ' . $body);
+        }
     }
 
     /**
