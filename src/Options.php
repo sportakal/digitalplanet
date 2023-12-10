@@ -101,7 +101,7 @@ class Options
     protected function createTicket(): void
     {
         $GetFormsAuthenticationTicketRequest = (new \Sportakal\Digitalplanet\Requests\GetFormsAuthenticationTicketRequest($this));
-        $response = \Sportakal\Digitalplanet\Make::exec($GetFormsAuthenticationTicketRequest, $this);
+        $response = \Sportakal\Digitalplanet\Make::execOptions($GetFormsAuthenticationTicketRequest, $this);
 
         $ticket = $response->getValue('GetFormsAuthenticationTicketResult');
         if (empty($ticket)) {

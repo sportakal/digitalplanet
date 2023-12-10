@@ -37,6 +37,7 @@ class Curl
             CURLOPT_MAXREDIRS => 10,
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_SSL_VERIFYPEER => false,
             CURLOPT_CUSTOMREQUEST => 'POST',
             CURLOPT_POSTFIELDS => $this->body,
             CURLOPT_HTTPHEADER => $this->headers, //['Content-Type: text/xml; charset=utf-8', 'SOAPAction: "http://tempuri.org/GetFormsAuthenticationTicket"']
