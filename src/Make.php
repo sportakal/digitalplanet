@@ -19,6 +19,11 @@ class Make
         return (new self($request, $options))->send();
     }
 
+    public static function execOptions(RequestInterface $request, Options $options): Response
+    {
+        return (new self($request, $options))->send();
+    }
+
     public function __construct(RequestInterface $request, Options $options)
     {
         $this->request = $request;
