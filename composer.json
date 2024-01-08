@@ -21,7 +21,8 @@
     "ext-simplexml": "*",
     "ext-curl": "*",
     "ext-json": "*",
-    "vlucas/phpdotenv": "^5.4"
+    "vlucas/phpdotenv": "^5.4",
+    "nesbot/carbon": "^2.72"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
