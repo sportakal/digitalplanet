@@ -19,7 +19,7 @@ class CancelEArchiveInvoiceRequest extends DigitalplanetRequest
     )
     {
         if ($CancelDate == null) {
-            $CancelDate = Carbon::now()->format('Y-m-d');
+            $CancelDate = Carbon::now()->format('Y-m-d H:i:s');
         }
 
         $this->Value = $Value;
